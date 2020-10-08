@@ -1,0 +1,93 @@
+/*
+####################################################
+    M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*==========================================================*/
+/* x-Small devices (landscape phones, 375px and up) */
+/*==========================================================*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 575.98px) {
+
+    /*======= Bolg Box =======*/
+    .section-blog .blog-box .blog-box-text {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .section-blog .blog-box .box-bottom .readMore {
+        margin: 0 !important;
+    }
+    .section-blog .blog-box .box-bottom .fa-bell {
+        margin: 0 !important;
+    }
+}
+
+/*==========================================================*/
+/* Small devices (landscape phones, 576px and up) */
+/*==========================================================*/
+@media only screen and (min-device-width : 576px) and (max-device-width : 767.98px) {
+
+    /*======= Bolg Box =======*/
+    .section-blog .blog-box .blog-box-text {
+        width: 80% !important;
+        margin: 0 auto;
+    }
+    .section-blog .blog-box .box-bottom .readMore {
+        margin-right: 5rem !important;
+    }
+
+}
+
+/*==========================================================*/
+/* Medium devices (landscape Tab, 768px and up) */
+/*==========================================================*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 991.98px) {
+
+    /*======= Bolg Box =======*/
+    .section-blog .blog-box .blog-box-text {
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .section-blog .blog-box .box-bottom .readMore {
+        margin: 0 !important;
+    }
+    .section-blog .blog-box .box-bottom .fa-bell {
+        margin: 0 !important;
+    }
+}
+
+/*==========================================================*/
+/* Large devices (landscape Laptop, 992px and up) */
+/*==========================================================*/
+@media only screen and (min-device-width : 992px) and (max-device-width : 1199.98px) {
+
+    /*======= Bolg Box =======*/
+    .section-blog .blog-box .blog-box-text {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+    .section-blog .blog-box .box-bottom .readMore {
+        margin-right: 3rem !important;
+    }
+    .section-blog .blog-box .box-bottom .fa-bell {
+        margin-left: 3rem !important;
+    }
+}
+
+/*==========================================================*/
+/* Large devices (landscape Desktop, 1200px and up) */
+/*==========================================================*/
+@media only screen and (min-device-width : 1200px) {
+
+    /*======= Bolg Box =======*/
+    .section-blog .blog-box .blog-box-text {
+        width: 75% !important;
+        margin: 0 auto;
+    }
+    .section-blog .blog-box .box-bottom .readMore {
+        margin-right: 6rem !important;
+    }
+    .section-blog .blog-box .box-bottom .fa-bell {
+        margin-left: 6rem !important;
+    }
+}
